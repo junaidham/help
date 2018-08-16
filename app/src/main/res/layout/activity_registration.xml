@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.junaid.demotestmma.activity.RegistrationActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbarH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<include layout="@layout/content_login" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+       android:layout_below="@id/toolbarH"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_marginTop="@dimen/margin_30"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#635f5f"
+            />
+
+
+        <!-- userInput -->
+        <LinearLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_30"
+            android:paddingRight="@dimen/margin_30"
+            android:layout_marginTop="@dimen/margin_2"
+            android:orientation="vertical"
+            >
+
+            <!-- UserName -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtUserName"
+                    style="@style/EditText1"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:inputType="text"
+                    android:hint="@string/username"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- Password -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_marginBottom="@dimen/margin_2"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtPassword"
+                    style="@style/EditText1"
+                    android:inputType="textPassword"
+                    android:hint="@string/password" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- edtEmail -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtEmail"
+                    style="@style/EditText1"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:inputType="text|textEmailAddress"
+                    android:hint="@string/email"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- edtMobile -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtMobile"
+                    style="@style/EditText1"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:inputType="number"
+                    android:maxLength="14"
+                    android:hint="@string/mobile"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- sex -->
+            <RadioGroup
+                android:id="@+id/sexRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/maleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Male"
+                    />
+                <RadioButton
+                    android:id="@+id/femaleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Female"
+                    />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <!-- Buttons -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegister"
+            style="@style/Button1"
+            android:layout_marginRight="@dimen/margin_30"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginTop="@dimen/margin_20"
+            android:background="@drawable/round_corners2_1"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/user_register"
+            />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            style="@style/EditText1"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:padding="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:text="@string/login"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

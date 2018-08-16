@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.junaid.demotestmma.MainActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbarH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_10"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="1"
+                android:text="@string/username"
+                />
+
+            <TextView
+                android:id="@+id/userNameView"
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="1"
+                android:text="@string/email"
+                />
+
+            <TextView
+                android:id="@+id/emailIdView"
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="1"
+                android:text="@string/password"
+                />
+
+            <TextView
+                android:id="@+id/passwordView"
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="1"
+                android:text="@string/mobile"
+                android:textSize="@dimen/text_size_15"
+                />
+
+            <TextView
+                android:id="@+id/mobileNoView"
+                android:layout_width="0dp"
+                style="@style/TvRText1"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_10"
+        >
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

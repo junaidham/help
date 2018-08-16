@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Demo MMA Group</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login </string>
+    <string name="user_register">Register</string>
+
+    <string name="submit">Submit"</string>
+    <string name="gallery">Gallery"</string>
+    <string name="camera">Camera"</string>
+    <string name="canceled">Canceled</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+</resources>
