@@ -1,0 +1,50 @@
+
+hosting Infinity Free
+=====================
+https://app.infinityfree.net/accounts/epiz_22553505
+https://cpanel.epizy.com/panel/index.php
+
+website:
+http://junaidandroid.epizy.com/
+
+API:
+http://junaidandroid.epizy.com/apiV1/
+
+
+
+epiz_22553505
+
+
+
+MySQL DB Name - epiz_22553505_android_mmagroup  
+MySQL User Name - epiz_22553505
+MySQL Password - null
+MySQL Host Name - sql203.epizy.com  or http://185.27.134.10
+FTP server - 185.27.134.11
+
+000WebHost hosting
+=================
+https://junaidandroid.000webhostapp.com/
+https://www.000webhost.com/members/website/junaidandroid/files
+https://www.000webhost.com/members/verify/66bfa4f70b55e387e245c478acfdb5290534a2ab
+junaidhamdard11@gmail.com
+
+DB_NAME / DB Name - id6769822_android_mmagroup [android_mmagroup
+DB_username  - 	id6769822_junaid
+DB_pass - root123
+DB Host - localhost  / https://databases.000webhost.com/
+
+API:
+https://junaidandroid.000webhostapp.com/apiV1/
+
+
+CREATE TABLE  `epiz_22553505_android_mmagroup`.`users` (
+`id` INT NOT NULL AUTO_INCREMENT ,
+`username` VARCHAR( 40 ) NOT NULL ,
+`password` TEXT NOT NULL ,
+`email` VARCHAR( 75 ) NOT NULL ,
+`mobile` INT( 12 ) NOT NULL ,
+`sex` VARCHAR( 8 ) NOT NULL ,
+`photo` BLOB NOT NULL ,
+PRIMARY KEY (  `id` )
+) ENGINE = MYISAM ;

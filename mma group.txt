@@ -1,0 +1,138 @@
+  UP201819000624322
+  s@15071996Z
+  
+  https://www.simplifiedcoding.net/android-login-and-registration-tutorial/
+  https://drive.google.com/file/d/0B13EE_qsNQLpRjB5Nm8tZWtQMlU/edit
+  https://www.simplifiedcoding.net/upload-image-to-server/
+  https://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/
+  https://www.dropbox.com/sh/4ezogrp83ijmm1e/AACPoKTu6X5q6uhAZLBRAANGa/v1?dl=0&subfolder_nav_tracking=1
+  
+  http://jdulal.com.np/upload-images-to-the-remote-server/
+  
+  
+http://www.mmagroup.us/
+Fields:(User)
+id
+username
+password 
+email
+photo  pic
+mobile
+sex
+
+createUser($username,$pass, $email)
+userLogin($username, $pass)
+
+APIUrl ApiPicJson
+ApiImage
+
+get All photo
+http://localhost/MyApiPicture/ApiImage.php?apicall=getpics
+
+Upload pic
+https://junaidandroid.000webhostapp.com/MyAPI/ApiPicJson.php
+1- http://localhost/MyAPI/ApiImage.php?apicall=uploadpic
+   http://localhost/MyAPI/ApiPicJson.php?apicall=uploadpic
+modatory: pic, fullname
+
+2- http://localhost/MyApi/register.php
+modatory: email
+pass paremeter: username, email, password
+
+3- http://localhost/MyApi/login.php
+modatory: password,email  
+
+
+
+signup
+-----
+http://localhost/AndroidPhpApp/User/V1/registerUser.php
+
+http://localhost/android_login_api/register.php
+modatory: email
+pass paremeter: username, email, password
+
+
+
+http://localhost/MyApiRegSign/Api.php?apicall=signup
+modatory: username, mobile
+pass paremeter: username','mobile','gender', 'email
+
+// condition false
+ "error": true,
+ "message": "User already exist username or mobile"
+
+// condition true
+  "error": false,
+    "message": "User registered successfully",
+    "user": {
+        "id": 19,
+        "username": "333211",
+        "email": "3",
+        "mobile": 33211,
+        "gender": "n"
+    }
+
+login
+-----
+http://localhost/MyApiRegSign/Api.php?apicall=login
+modatory: username', 'password
+{
+    "error": false,
+    "message": "Login successfull",
+    "user": {
+        "id": 2,
+        "username": "dd",
+        "email": "email@gmail.com",
+        "password": "11",
+        "gender": "male",
+        "mobile": 0
+    }
+}
+
+
+http://localhost/android_login_api/login.php
+modatory: password,email  
+{
+    "error": false,
+    "uid": "5b73c5eabc71f3.48112242",
+    "user": {
+        "name": "kkss1",
+        "email": "kgss11k@m.com",
+        "created_at": "2018-08-15 11:49:22",
+        "updated_at": null
+    }
+}
+
+
+
+
+
+https://junaidandroid.000webhostapp.com/ApiApp/
+https://junaidandroid.000webhostapp.com/ApiApp/register.php
+
+https://junaidandroid.000webhostapp.com/ApiApp/login.php
+email
+passw
+
+
+
+
+
+
+
+
+create table users(
+   id int(11) primary key auto_increment,
+   fullname varchar(50) not null,
+   image varchar(500) not null,
+   unique_id varchar(23) not null unique,
+   username varchar(50) not null,
+   email varchar(100) not null unique,
+   encrypted_password varchar(80) not null,
+    mobile int(14) ,
+   gender varchar(8) ,
+   salt varchar(10) not null,
+   created_at datetime,
+   updated_at datetime null
+);ord

@@ -1,0 +1,104 @@
+http://careers.amigainformatics.com/jobs/
+
+http://www.design-master.com/jobs.html?2
+mustafa@design-master.com; ‎
+Android Developer
+
+ORM ( Object relational Mapping)
+
+
+
+Android PHP MySQL Tutorial 
+==========================
+
+1-Tutorial(Example)
+-------------------
+
+Requiment:
+->XAMPP, PHP, MySQL, Android Studio - (software)
+-> Create Database->Table(User) - (MySQL and Sqlite)
+-> Create PHP Script for communicate with database -(Android PHP MySQL )
+
+
+
+https://www.simplifiedcoding.net/upload-image-to-server/
+https://drive.google.com/file/d/0B_XL7ecvuxWFVlBVUVdNZko5QjQ/view
+
+https://www.simplifiedcoding.net/android-login-and-registration-tutorial/
+https://drive.google.com/file/d/0B13EE_qsNQLpRjB5Nm8tZWtQMlU/view
+
+https://www.dropbox.com/sh/kbtffs3af95zq5l/AADG-rIohekNo41zxrjCKRi8a?dl=0
+https://www.dropbox.com/sh/4ezogrp83ijmm1e/AAC85yvx8BZspuQdcIjnyLAHa?dl=0
+https://drive.google.com/file/d/0B_XL7ecvuxWFVlBVUVdNZko5QjQ/view
+
+
+
+ Android PHP MySQL Tutorial | Introduction
+ https://www.youtube.com/watch?v=5vy55k542NM&list=PLk7v1Z2rk4hjQaV062aE_CW68xgXdYFpV
+ https://www.youtube.com/watch?v=FMp_bkzlx1g&list=PLgCYzUzKIBE9SZgIou-NvIWY-apBC5z5-
+ https://www.youtube.com/user/SimplifiedCoding/playlists
+ 
+ https://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/
+ 
+ 
+ 
+Upload image to Server using Volley Library
+https://www.simplifiedcoding.net/upload-image-to-server/
+https://drive.google.com/file/d/0B_XL7ecvuxWFVlBVUVdNZko5QjQ/view
+http://jdulal.com.np/upload-images-to-the-remote-server/
+
+Upload Image to Server Using PHP MySQL
+https://www.simplifiedcoding.net/android-upload-image-to-server-using-php-mysql/
+
+
+Android Programming Tutorial to Get All Images from Server
+https://www.simplifiedcoding.net/android-programming-tutorial-to-get-all-images-from-server/
+https://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/
+https://www.simplifiedcoding.net/android-download-image-from-server-using-php-and-mysql/
+
+REST API for Android app using PHP, Slim and MySQL
+https://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-12-2/
+
+
+https://codingwithmitch.com/courses/android-sqlite-for-beginners/
+https://www.youtube.com/watch?v=zl3yTm9fHHY&list=PLgCYzUzKIBE9GbkSRYQh167Yi4DcqtQkJ
+
+ 
+ display all row data json - Android JSON Parsing – Retrieve From MySQL Database
+ https://www.simplifiedcoding.net/android-json-parsing-tutorial/
+ https://phppot.com/php/php-mysql-rest-api-for-android/
+ 
+ Android Upload Image Using PHP MySQL and Display Images in ListView
+https://www.simplifiedcoding.net/android-upload-image-using-php-mysql-android-studio/
+https://www.simplifiedcoding.net/android-upload-image-to-server/
+
+
+Login/Signup en Navigation
+https://github.com/mychael29/NavigationDrawerLoginMySQL
+https://www.youtube.com/watch?v=a268SbNlfHE
+
+
+ JSON Webservices in PHP
+https://www.youtube.com/watch?v=FdwJkHgUpoU
+
+
+
+Android Login And Register | PART 1 | (Volley Library, PHP, MySQL)
+https://wwhttps://www.youtube.com/playlist?list=PLT3-dzFEBix1HZJFkMFEOw7e9hR0qUE0D
+https://drive.google.com/file/d/1F_pECrYeRnqN6Z7jUqPNo5zWeo_MiWCF/view
+
+https://gist.github.com/haerulmuttaqin/11e8f4c8f24d2d50a5aea858ee77e292
+https://gist.github.com/haerulmuttaqin/1ae6a3667adfb0b46ee31177289f8a57
+
+
+Retrofit Android Tutorial - REST API 
+https://www.youtube.com/playlist?list=PLk7v1Z2rk4hhGfJw-IQCm6kjywmuJX4Rh
+https://www.simplifiedcoding.net/
+https://www.slimframework.com/
+https://www.learn2crack.com/2016/04
+
+https://www.simplifiedcoding.net/retrofit-android-tutorial/
+https://www.simplifiedcoding.net/php-restful-api-framework-slim-tutorial-1/
+
+Lapit Chat App:
+https://www.youtube.com/watch?v=Cw0SmoroyNg&list=PLGCjwl1RrtcQ3o2jmZtwu2wXEA4OIIq53
